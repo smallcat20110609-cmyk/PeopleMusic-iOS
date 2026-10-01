@@ -1,0 +1,22 @@
+name: PeopleMusic
+options:
+  bundleIdPrefix: com.peoplemusic
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  PeopleMusic:
+    type: application
+    platform: iOS
+    sources:
+      - path: PeopleMusic
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.peoplemusic.app
+        PRODUCT_NAME: PeopleMusic
+        MARKETING_VERSION: "9.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_FILE: PeopleMusic/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGNING_ALLOWED: NO
